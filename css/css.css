@@ -6,14 +6,19 @@
     
 }
 #menu-container {
+    min-width: 80%;
     
-    
+}
+
+.centerbody{
+    display:flex;flex-direction:column;align-items:center
 }
 
 html{
     font-family:Arial, Helvetica, sans-serif;
-    position: relative;
+    position:unset;
     min-height: 100%;
+    
 }
 
 a{
@@ -36,14 +41,17 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    /* width: 40%; */
     margin-top: 20px;
 }
 #google-search-bar{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    /* width: 80%; */
+    width: 600px;
+    /* min-width: 100px; */
+    
     border-radius: 50px;
     
 }
@@ -54,7 +62,14 @@ a{
   padding: 0;
   margin: 0;
 }
-
+#search_img {
+    
+    position: relative;
+    right: 240px;
+    top: -30px;
+    width:24px;
+    height:24px;
+}
 
 button{
     cursor: pointer;
@@ -62,16 +77,18 @@ button{
 
 input{
     height: 40px;
-    border: 0.1px solid silver;
+    border: 0.01px solid #dddddd;
     /* opacity: 60%; */
     outline:none;
     padding-left: 40px;
-    display: inline;
+    display:block;
+    margin: auto;
     background:url("/images/search.png") no-repeat scroll 7px 7px;
+    
 }
 input:hover{
     /* color: rgba(255, 255, 255, 1); */
-    box-shadow: 0 2px 3px rgb(192, 185, 185);
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
     
     
 }
@@ -81,7 +98,7 @@ input:hover{
     margin-top: 20px;
     width: 50%;
     padding: 10px;
-    /* border:red solid 2px; */
+    
     text-align: center;
 }
 .buttons{
