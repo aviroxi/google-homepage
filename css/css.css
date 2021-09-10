@@ -54,14 +54,7 @@ a{
   padding: 0;
   margin: 0;
 }
-#search_img {
-    
-    position: relative;
-    right: 240px;
-    top: -30px;
-    width:24px;
-    height:24px;
-}
+
 
 button{
     cursor: pointer;
